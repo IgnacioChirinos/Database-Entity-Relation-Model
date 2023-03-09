@@ -4,6 +4,8 @@ En este repositorio se darán los pasos para poder crear una base de datos sql. 
 
 Para ejecutar el código solo se debe descargar el repositorio y descargar los archivos csv con la cantidad de datos que se quiera probar. Ingresar todos los archivos dentro de MySql y proceder a ejecutar los códigos (DataBaseCreation, LoadData, Consulta) en el respectivo orden. El archivo IndexImprovment se usa para el desarrollo experimental.
 
+Link de archivos csv: https://drive.google.com/drive/folders/1ekV1yH6uf2HCpEfZfqMqOtiyttQTkWOJ?usp=sharing
+
 Debemos construir quienes serán los usuarios que usarán la base de datos. A partir de esto podemos formar la funcionalidad de esta
 
 Administrador: Tiene acceso a todas las tablas además de tener los permisos de escritura y lectura.
@@ -40,7 +42,9 @@ Los reportes de horas se identifican por su parte diario y está asociado a un c
 
 Los repuestos están asociados a un volquete y se identifican por el número de serie de la pieza y la placa del volquete asociado.
 
-En la carpeta se podrá encontrar el esquemático del modelo entidad relación **Modelo relacional**
+En la carpeta se podrá encontrar el esquemático del modelo entidad relación 
+
+**Modelo relacional**
 
 1. Volquete (Placa varchar(10), marca varchar(20), modelo varchar(20))
 1. Trabajador (DNI varchar(10), nombre varchar(60), apellidos varchar(60),correo varchar(60),clave varchar(60), licencia varchar(10))
@@ -63,4 +67,4 @@ Consulta con la que se probara la base de datos
 La consulta en sql se encuentra en el archivo Consulta.sql
 
 
-https://drive.google.com/drive/folders/1ekV1yH6uf2HCpEfZfqMqOtiyttQTkWOJ?usp=sharing
+
