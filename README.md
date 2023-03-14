@@ -1,5 +1,5 @@
 # Database-Entity-Relation-Model
-This Repository helps the creation of DataBase with SQL,
+
 
 En este repositorio se darán los pasos para poder crear una base de datos sql. Usando el método de entidad-relación. Se usará un ejemplo imaginario de una empresa transportista, que cuenta con una base de datos sin ningún desarrollo y solo tienen los datos guardados. Se verá paso a paso cómo se desarrolla el modelo y cómo se implementa la creación de la tablas y como los datos van a ser manejados.
 
