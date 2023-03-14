@@ -19,11 +19,11 @@ La base de datos tendrá la capacidad de responder algunas tipos de consultas co
 
 ¿Cuál es la carga de operaciones que ha tenido cada conductor en el último año? ¿Cuántos volquetes han estado en un lapso mayor a dos semanas en contrato? ¿Cuál es el costo promedio de combustible que tiene que pagar la empresa por año?
 
-**Objetivo del Proyecto**
+## Objetivo del Proyecto
 
 Generar una base de datos que cumpla los requerimientos mencionados Cumplir con las consultas para la obtención de los ingresos y los gastos.
 
-**Modelo Entidad Relación**
+## Modelo Entidad Relación
 
 Debemos definir las reglas semánticas con las que trabajaremos en el proyecto.
 
@@ -45,7 +45,7 @@ Los repuestos están asociados a un volquete y se identifican por el número de 
 
 En la carpeta se podrá encontrar el esquemático del modelo entidad relación 
 
-**Modelo relacional**
+## Modelo relacional
 
 1. Volquete (Placa varchar(10), marca varchar(20), modelo varchar(20))
 1. Trabajador (DNI varchar(10), nombre varchar(60), apellidos varchar(60),correo varchar(60),clave varchar(60), licencia varchar(10))
@@ -57,7 +57,7 @@ En la carpeta se podrá encontrar el esquemático del modelo entidad relación
 1. Reporte en combustible (Nro vale varchar(11), cantidad Agregada float, kilometraje varchar(11), horometro varchar(11), fecha reporte date, Contrato.unidad varchar(20), Contrato.Fecha ingreso date, Contrato.RUC empresa varchar(11))
 1. Repuestos (Volquete.Placa varchar(10),NroSerie varchar(11), pieza varchar(60), precio float, fecha compra date)
 
-**Carga de datos**
+## Carga de datos
 
 La carga de datos se realiza por el uso de archivos .csv. Estos se cargaron con el uso de COPY en sql dando la dirección de los archivos y como están delimitados estos.
 
