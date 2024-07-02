@@ -1,7 +1,7 @@
 # Database-Entity-Relation-Model
 
 
-En este repositorio se darán los pasos para poder crear una base de datos sql. Usando el método de entidad-relación. Se usará un ejemplo imaginario de una empresa transportista, que cuenta con una base de datos sin ningún desarrollo y solo tienen los datos guardados. Se verá paso a paso cómo se desarrolla el modelo y cómo se implementa la creación de la tablas y como los datos van a ser manejados.
+En este repositorio se darán los pasos para poder crear una base de datos sql. Usando el método de entidad-relación. Se usará un ejemplo de una empresa transportista, que cuenta con una base de datos sin ningún desarrollo y solo tienen los datos guardados. Se verá paso a paso cómo se desarrolla el modelo y cómo se implementa la creación de la tablas y como los datos van a ser manejados.
 
 Para ejecutar el código solo se debe descargar el repositorio y descargar los archivos csv con la cantidad de datos que se quiera probar. Ingresar todos los archivos dentro de PostgreSQL en una base de datos que tenga por nombre "Proyecto", en caso de llamarlo de diferente manera se tendra que cambiar el codigo, y proceder a ejecutar los códigos (DataBaseCreation, LoadData, Consulta) en el respectivo orden. El archivo IndexImprovment se usa para el desarrollo experimental.
 
